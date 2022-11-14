@@ -2,5 +2,13 @@ baseURL: ""
 languageCode: en-us
 title: Boredtoolbox
 theme: PaperMod
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
 params:
   defaultTheme: dark
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
