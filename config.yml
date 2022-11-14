@@ -2,6 +2,7 @@ baseURL: ""
 languageCode: en-us
 title: Boredtoolbox
 theme: PaperMod
+
 outputs:
     home:
         - HTML
@@ -12,6 +13,15 @@ params:
   ShowShareButtons: true
   ShowReadingTime: true
   ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  homeInfoParams:
+    Title: 'Yet Another BoredToolbox Blog'
+    Content: 'Wassup, World!'
+  socialIcons:
+    - name: LinkedIn
+      url: 'https://www.linkedin.com/in/avradeep/'
+    - name: Github
+      url: 'https://github.com/boredtoolbox'
 menu:
   main:
   - identifier: categories
