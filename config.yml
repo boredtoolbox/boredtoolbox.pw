@@ -120,18 +120,22 @@ menu:
       name: Categories
       url: /categories/
       weight: 20
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 30
+#    - identifier: tags
+#      name: Tags
+#      url: /tags/
+#      weight: 30
     - identifier: archives
       name: Archives
       url: /archives/
       weight: 30
-#    - identifier: example
-#      name: example.org
-#      url: https://example.org
-#      weight: 30
+    - identifier: buymeabook
+      name: Buy Me A Book
+      url: https://www.buymeacoffee.com/boredtoolbox
+      weight: 50
+    - identifier: subscribe
+      name: Newsletter
+      url: https://www.linkedin.com/newsletters/bored-toolbox-6964456220447387648/
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
